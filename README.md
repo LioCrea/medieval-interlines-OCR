@@ -1,9 +1,6 @@
 # medieval-interlines-OCR
 Python code that helps you isolate lines of any type of documents. Was first created for old handwritten mediaval books. 
 
-
-# Line Spacing Detection in Text Images
-
 This project provides a Python script that automatically detects **interlines** (the spaces between lines of text) in a scanned or photographed page. It produces:
 
 * an **annotated image** with red polylines following each detected interline;
@@ -182,6 +179,10 @@ tracks = detect_interlines(
 )
 print(f"Detected interlines: {len(tracks)}")
 ```
+
+![Result](https://github.com/LioCrea/medieval-interlines-OCR/blob/main/texttotest_interlines.png)
+
+
 
 ---
 
